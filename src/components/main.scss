@@ -1,0 +1,30 @@
+.main {
+    position: relative;
+    height: 100%;
+    background-color: #fff2c9;
+    .owner {
+
+    }
+    .user {
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        .user-msg{
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+        .start-button {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgb(91, 85, 76);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
